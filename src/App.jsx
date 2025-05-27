@@ -41,6 +41,10 @@ function App() {
           ))}
         </div>
       </main>
+      <div className="toolbar">
+        <button className="toolbutton">+</button>
+      </div>
+
 
     </>
   )

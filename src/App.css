@@ -128,4 +128,19 @@ main {
   border: 1px solid #999;
   background-color: white;
 }
+.toolbar{
+  width: 100vw;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
 
+.toolbutton{
+  background-color: rgb(126, 117, 117);
+  color: white;
+  border-radius: 50px;
+  height: 30px;
+  width: 10%;
+  
+}
