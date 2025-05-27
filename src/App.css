@@ -137,10 +137,11 @@ main {
 }
 
 .toolbutton{
-  background-color: rgb(126, 117, 117);
+  background-color: rgb(97, 126, 223);
   color: white;
   border-radius: 50px;
   height: 30px;
   width: 10%;
+  border: 0px;
   
 }
