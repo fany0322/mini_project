@@ -41,10 +41,14 @@ function App() {
           ))}
         </div>
       </main>
-      <div className="toolbar">
+      <div className='bottom'>
+      <div className="toolbar1">
         <button className="toolbutton">+</button>
       </div>
-
+      <div className="toolbar2">
+        <button className="toolbutton">+</button>
+      </div>
+      </div>
 
     </>
   )
