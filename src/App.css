@@ -4,6 +4,8 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
 .header{
     margin-top: -15px;
 }
@@ -39,7 +41,9 @@
     flex-direction: column; 
     align-items: center;  
 }
+
 .account span {
+  
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis; 
@@ -69,7 +73,7 @@ header {
 
 
 .naljja_body{
-    width: 100%;
+    width: 100vw;
     height: 5vh;
     background-color: white;
     justify-content: center;
@@ -91,11 +95,11 @@ header {
 
 .em{
     background-color: black;
-    width: 100%;
+    width: 100vw;
     height: 2vh;
 }
 .week{
-    width: 100%;
+    width: 100vw;
     height: 2vh;
     border: 1px solid black;
     background-color: white;
