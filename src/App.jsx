@@ -1,9 +1,14 @@
 import { useNavigate } from "react-router-dom"
 import { VscChevronDown } from "react-icons/vsc"
+import dayjs from "dayjs";
 import './App.css'
 
 function App({ loggedIn }) {
   const navigate = useNavigate()
+    const date = dayjs().format('YYYY.MM');
+    const month = dayjs().format('M');
+    const year = dayjs().format('YYYY');
+    console.log(date);
 
   return (
     <>
@@ -32,7 +37,7 @@ function App({ loggedIn }) {
         </div>
 
         <div className="naljja_body">
-          <span className="naljja">2025.05</span>
+          <span className="naljja">{date}</span>
           <div className="Icon"><VscChevronDown size="30" /></div>
         </div>
 
@@ -64,16 +69,7 @@ function App({ loggedIn }) {
         )}
       </main>
 
-      {loggedIn && (
-        <div className='bottom'>
-          <div className="toolbar1">
-            <button className="toolbutton">+</button>
-          </div>
-          <div className="toolbar2">
-            <button className="toolbutton">+</button>
-          </div>
-        </div>
-      )}
+
     </>
   )
 }
